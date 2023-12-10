@@ -1,0 +1,40 @@
+{
+	"name": "game-dumper",
+	"author": "WhiteSpider Dev (https://whitespider.dev/)",
+	"license": "GPL-3.0",
+	"version": "0.1.0",
+	"homepage": "https://github.com/whitespider-dev/game-dumper#readme",
+	"description": "A tool for saving static assets of an online HTML5 game",
+	"bin": "r/bin.js",
+	"main": "r/main.js",
+	"type": "module",
+	"files": [
+		"r/",
+		"types.d.ts"
+	],
+	"keywords": [],
+	"engines": {
+		"node": ">=18.17.1",
+		"vscode": "^1.22.0"
+	},
+	"bugs": {
+		"url": "https://github.com/whitespider-dev/game-dumper/issues",
+		"email": "admin@whitespider.dev"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/whitespider-dev/game-dumper.git"
+	},
+	"devDependencies": {
+		"@types/node": "^20.10.4",
+		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"jsdom": "^23.0.1",
+		"node-fetch": "^3.3.2",
+		"puppeteer": "^21.6.0"
+	},
+	"scripts": {
+		"cli": "./r/cli.js"
+	}
+}
